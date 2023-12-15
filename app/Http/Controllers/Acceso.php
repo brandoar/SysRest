@@ -20,14 +20,6 @@ class Acceso extends Controller
         $l_pass = (trim($request->l_pass));
 
         try {
-
-            // Conexión SQL SERVER
-            \Config::set('database.default', 'sqlsrv');
-            \Config::set('database.connections.sqlsrv.host', '127.0.0.1');
-            \Config::set('database.connections.sqlsrv.port', '1433');
-            \Config::set('database.connections.sqlsrv.username', 'sa');
-            \Config::set('database.connections.sqlsrv.password', 'A290197r');
-            \Config::set('database.connections.sqlsrv.database', 'db_sysrest');
             
             $usuario = DB::table('usuarios as a')
                         ->leftJoin('sucursal as b', function ($join) {
