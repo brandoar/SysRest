@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$white:         #fff !default;
+$black:         #000 !default;
+$primary:       #321fdb !default;
+$secondary:     #303c50 !default;
+$success:       #28a745 !default;
+$info:          #007bff !default;
+$warning:       #ffc107 !default;
+$danger:        #dc3545 !default;
+$light:         #f8f9fa !default;
+$dark:          #1e1f31 !default;
+
+$gray-base:  #3c4b64 !default;
+$gray-100:   #ebedef !default;
+$gray-200:   #d8dbe0 !default;
+$gray-300:   #c4c9d0 !default;
+$gray-400:   #b1b7c1 !default;
+$gray-500:   #9da5b1 !default;
+$gray-600:   #8a93a2 !default;
+$gray-700:   #495057 !default;
+$gray-800:   #636f83 !default;
+$gray-900:   #4f5d73 !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "white":      $white,
+  "black":      $black,
+);
+
+// Components
+$border-radius: 5px;
+
+// Body
+// $body-bg: theme-color("light");
+$body-color: $gray-700;
+
+// Tipo letra
+$font-family-base: "Roboto", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.2;
+$font-size-sm: $font-size-base * .875 !default;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 900;
+
+$headings-font-weight: 400;
+
+// Buttons + Forms
+$btn-border-radius: $border-radius !default;
+$btn-border-radius-lg: $border-radius !default;
+$btn-border-radius-sm: $border-radius !default;
+
+/*$input-btn-padding-y:         .275rem !default;
+$input-btn-padding-x:         .55rem !default;
+
+$input-btn-padding-y-sm: .15rem !default;
+$input-btn-padding-x-sm: .3rem !default;
+*/
+// Default Theme
+$table-cell-padding:      .5rem !default;
+$table-cell-padding-sm:   .2rem .1rem !default;
+
+$table-color:         $body-color !default;
+$table-bg:            null !default;
+$table-accent-bg:     rgba($black, .07) !default;
+//$table-hover-color:   $table-color !default;
+//$table-hover-bg:      rgba($black, .075) !default;
+$table-active-bg:     rgba($primary,.8) !default;
+//$table-border-color:  $border-color !default;
+$table-head-bg:       $white !default;
+$table-head-color:    $dark !default;
+
+$table-dark-color:         $white !default;
+$table-dark-bg:            $dark !default;
+$table-dark-accent-bg:     rgba($white, .05) !default;
+$table-dark-hover-color:   $table-dark-color !default;
+$table-dark-hover-bg:      rgba($white, .075) !default;
+$table-dark-border-color:  lighten($table-dark-bg, 7.5%) !default;
+
+$input-border-radius: $border-radius !default;
+$input-border-radius-lg: $border-radius !default;
+$input-border-radius-sm: $border-radius !default;
+
+// Modals
+$modal-inner-padding: 8px;
+$modal-header-padding-y: 8px;
+$modal-header-padding-x: 8px;
+
+$modal-footer-margin-between: 8px;
+
+$modal-content-border-radius: $border-radius;
+
+//$modal-content-bg: theme-color("light");
+.modal-header{
+  background: theme-color("primary");
+  color: theme-color("light");
+  font-weight: $font-weight-bold;
+  *{
+    font-weight: $font-weight-bold;
+  }
+}
+
+// Cards
+$card-spacer-y: 8px;
+$card-spacer-x: 8px;
+$card-cap-bg: theme-color("primary");
+$card-bg: white;
+
+// Forms
+$form-group-margin-bottom: .25rem;
+
+// Tables
+//$table-active-bg: rgba(theme-color("primary"),.2);
+/*.table{
+  margin-bottom: 0 !important;
+  font-size: 0.65rem;
+}*/

@@ -1,0 +1,37 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@coreui/coreui": "^4.3.2",
+        "@fortawesome/fontawesome-free": "^6.4.2",
+        "@popperjs/core": "^2.11.8",
+        "autoprefixer": "^10.4.16",
+        "axios": "^0.17",
+        "chart.js": "^4.4.0",
+        "css-loader": "^6.8.1",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "postcss-loader": "^7.3.3",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.69.5",
+        "sass-loader": "^13.3.2",
+        "simplebar": "^6.2.5",
+        "style-loader": "^3.3.3",
+        "sweetalert2": "^11.10.1",
+        "vue": "^2.7.15",
+        "vue-currency-input": "^1.22.5",
+        "vue-loader": "^15.9.8",
+        "vue-masked-input": "^0.5.2",
+        "vue-template-compiler": "^2.6.12",
+        "vuex": "^3.6.2"
+    }
+}
